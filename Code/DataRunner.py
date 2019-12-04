@@ -7,7 +7,7 @@ import datetime
 import DataLoader as DL
 if __name__=='__main__':
 
-	#the path of the input csv file /hash rate file
+    #the path of the input csv file /hash rate file
     path = './Data/apr-sep_worker_location.csv'
 
     #the path of the carbon emission factor file 
