@@ -13,7 +13,6 @@ if __name__=='__main__':
     #the path of the carbon emission factor file 
     filepath = './Data/IEA_Factor_clean.csv'
 
-
     data = pd.read_csv(path,na_values='-')
     df = DL.MiningHashrate(data)
     df.function_wrapper(filepath=filepath)
