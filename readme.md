@@ -19,3 +19,15 @@ Pool
 Python user: change the data name and run Datarunner script. 
 
 General user: run GUI script and enter the name for both file. 
+
+##### Draw the geographic map
+
+Package requirement: geopandas
+
+Use command line to run the following command
+
+```cmd
+cd "your filepath"
+bokeh serve --show Map.ipynb
+```
+
